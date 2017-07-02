@@ -7,3 +7,6 @@ it will start crawling the www and look for new domain if found add it in queue 
 
 # What is the use of crawler ?
 without web crawler search engine would not exist thats the simplest way to explain what is the use of crawler !!
+
+to run this Java Webcrawler program file you need add JSOUP jar file.
+you can download JSOUP jar file from https://jsoup.org/download
