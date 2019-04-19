@@ -9,9 +9,9 @@ package domain;
 
 /*	Project 
  *  Title  : Web Crawler
- *  Author : More Suhas Rajendra And Mengawade Vaibhav Hanumant
+ *  Author : More Suhas Rajendra
  *  Mobile : +919689649696
- *  Email  : suhasdadamore@gmail.com	
+ *  Email  : moresuhas010@gmail.com	
  *  	   : dsuhas4u@gmail.com 	
  *  
  */
@@ -41,11 +41,11 @@ public class Domain{
 
 	public static void main(String[] args) throws SocketTimeoutException, UnknownHostException, FileNotFoundException, UnsupportedEncodingException, ClassNotFoundException, SQLException, IOException 
 	{
-PrintWriter writer = new PrintWriter("twww.txt", "UTF-8");
-writer.println("The first line");
-writer.println("The second line");
-writer.println("The second line");
-writer.println("The second line");
+		PrintWriter writer = new PrintWriter("twww.txt", "UTF-8");
+		writer.println("The first line");
+		writer.println("The second line");
+		writer.println("The second line");
+		writer.println("The second line");
 
 
 		String dnm,ch;
@@ -67,8 +67,7 @@ writer.println("The second line");
 			
 		System.out.println("\n\n\t\tEnter Seeds To Start Crawling : ");
 		
-		try
-		{
+		try {
 		do
 		{
 			System.out.print("\t\tEnter Here : ");
